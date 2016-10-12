@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"></string>
+    <string name="man_menu_title">Main Menu</string>
+    <string name="disclaimer"> By clicking login you agree to the following terms:\n
+1)	You will not copy, paste, edit, touch, or think about what you've read in this agreement text.  At not time in the future, or the past (should time travel be invented), will you do any of the aforementioned things.  Should you violate your agreement about this agreement you will forfeit your free will and anything else we can think of. 
+2)	By reading this you agreement to abide by the rules and regulations you have yet to read about.  Failure to continue reading this inane text will result in blindness and or more free time and a sense of self worth.
+3)	This should be long enough to make the text box scroll.
+	</string> 
+</resources>

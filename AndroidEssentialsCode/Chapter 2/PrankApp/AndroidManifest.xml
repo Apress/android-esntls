@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.apress.book.PrankApp">
+	<uses-permission android:name="android.permission.RECEIVE_SMS" />
+	<application android:icon="@drawable/icon">
+		<activity android:name=".PrankActivity"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<action android:name="com.apress.START_THE_MUSIC" />
+				<category android:name="android.intent.category.LAUNCHER" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<receiver android:name="PrankSMSReceiver"
+			android:enabled="true">
+			<intent-filter>
+				<action
+					android:name="android.provider.Telephony.SMS_RECEIVED" />
+				<category
+					android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</receiver>
+		<service android:name=".PrankService">
+			<intent-filter>
+				<action android:name="com.apress.START_AUDIO_SERVICE" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</service>
+
+	</application>
+</manifest>

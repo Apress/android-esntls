@@ -1,0 +1,65 @@
+8
+
+dir
+0
+svn+ssh://haseman@fairchild.local/Developer/svn/Writing/Android%20Book/Chapters/Chapter%205/Chapter_5_1/RadioExample
+svn+ssh://haseman@fairchild.local/Developer/svn
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+.classpath
+file
+
+
+
+add
+
+assets
+dir
+
+
+
+add
+
+.project
+file
+
+
+
+add
+
+AndroidManifest.xml
+file
+
+
+
+add
+
+src
+dir
+
+
+
+add
+
+bin
+dir
+
+
+
+add
+
+res
+dir
+
+
+
+add
+

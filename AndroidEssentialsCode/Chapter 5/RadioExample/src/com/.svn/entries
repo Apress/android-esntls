@@ -1,0 +1,23 @@
+8
+
+dir
+0
+svn+ssh://haseman@fairchild.local/Developer/svn/Writing/Android%20Book/Chapters/Chapter%205/Chapter_5_1/RadioExample/src/com
+svn+ssh://haseman@fairchild.local/Developer/svn
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+apress
+dir
+
+
+
+add
+

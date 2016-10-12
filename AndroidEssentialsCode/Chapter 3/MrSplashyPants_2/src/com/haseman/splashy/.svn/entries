@@ -1,0 +1,51 @@
+8
+
+dir
+0
+svn+ssh://haseman@fairchild.local/Developer/svn/Writing/Android%20Book/Chapters/Chapter%203/MrSplashyPants_2/src/com/haseman/splashy
+svn+ssh://haseman@fairchild.local/Developer/svn
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+R.java
+file
+
+
+
+add
+
+getSplashy.java
+file
+
+
+
+add
+
+CanvasExample.java
+file
+
+
+
+add
+
+loginScreen.java
+file
+
+
+
+add
+
+MainMenu.java
+file
+
+
+
+add
+

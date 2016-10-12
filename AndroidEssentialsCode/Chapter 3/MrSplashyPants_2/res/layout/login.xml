@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/general_bg"
+    >
+    
+	<TextView 
+	android:text="Login Screen"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:textAlign="center"
+	/>
+	<TextView
+	android:text="Username:"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	/>
+	<EditText 
+	android:id="@+id/username"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    />
+    <TextView
+    android:text="Password:"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+    <EditText
+    android:id="@+id/password"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    />
+    <Button
+	android:id="@+id/loginbutton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Login"
+    />
+    <TextView
+    android:id="@+id/status"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	android:textAlign="center"
+	android:text="Enter Username and Password"
+	/>
+	<TextView
+	android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/disclaimer"
+    />
+	
+</LinearLayout>
+</ScrollView>

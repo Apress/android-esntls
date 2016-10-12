@@ -1,0 +1,65 @@
+8
+
+dir
+0
+svn+ssh://haseman@fairchild.local/Developer/svn/Writing/Android%20Book/Chapters/Chapter%202/Chapter_2_D2/MrSplashyPants/bin
+svn+ssh://haseman@fairchild.local/Developer/svn
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+MrSplashyPants.apk
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+resources.ap_
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+classes.dex
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+com
+dir
+
+
+
+add
+

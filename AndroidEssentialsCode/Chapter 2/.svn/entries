@@ -1,0 +1,44 @@
+8
+
+dir
+0
+svn+ssh://haseman@fairchild.local/Developer/svn/Writing/Android%20Book/Chapters/Chapter%202
+svn+ssh://haseman@fairchild.local/Developer/svn
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+10627c02_toAR_Oops.docx
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Chapter_2_D1
+dir
+
+
+
+add
+
+Chapter_2_D2
+dir
+
+
+
+add
+
